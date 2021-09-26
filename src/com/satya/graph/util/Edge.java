@@ -5,11 +5,11 @@ package com.satya.graph.util;
  */
 public class Edge {
     //the source node
-    int src;
+   private int src;
     //the destination node
-    int dest;
+    private int dest;
     //weight among the nodes
-    int wt;
+    private int wt;
 
     public int getSrc() {
         return src;
